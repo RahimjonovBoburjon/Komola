@@ -1,0 +1,71 @@
+.hero {
+    background: url(../images/header_bg.jpg) no-repeat center / cover;
+}
+
+.servic2 .cards .icon {
+    display: block;
+    margin: 0 auto;
+}
+
+.prices .card {
+    transition: 400ms;
+}
+
+.prices .card:hover  {
+    border-color: var(--bs-danger) !important;
+    cursor: pointer;
+}
+
+.prices .card .price {
+    transition: 400ms;
+}
+
+.prices .card:hover .price {
+    background: var(--bs-danger) !important;
+    color: #fff;
+}
+
+.p-card-block {
+    background: rgba(255, 255, 255, 0.59);
+    opacity: 0; 
+    transition: 400ms;
+}
+
+.project-card:hover .p-card-block {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.titles {
+    transition: 200ms;
+}
+
+.cards:hover .titles {
+    color: #dc3545 !important;
+}
+
+.footer {
+    background: #1f2c33;
+}
+
+.buton {
+    transform: translateX(-12px);
+}
+
+.footerend {
+    background: #283645;
+}
+
+@media (max-width: 991px) {
+    .hero {
+        height: 70vh;
+    }
+    
+    .hero .title {
+        width: 100% !important;
+    }
+
+    .hero .text {
+        width: 100% !important;
+    }
+}
